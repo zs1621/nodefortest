@@ -1,0 +1,21 @@
+{
+  "name": "nodefortest",
+  "description": "test",
+  "version": "0.0.1",
+  "repository": "https://github.com/zs1621/nodefortest",
+  "dependencies": {
+    "request": "*",
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test make test"
+  },
+  "engines": {
+    "node": ">= 10.25"
+  },
+  "license": "MIT"
+}
